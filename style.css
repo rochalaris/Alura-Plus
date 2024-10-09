@@ -1,0 +1,184 @@
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+    --fonte-principal: 'Inter';
+    --botao-azul-efeito: #3c92fa;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    background-color: var(--cor-de-fundo);
+}
+
+.conteudo-principal {
+    background: url(/img/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--branco-principal);
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.parte1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+.titulo-principal {
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+.imagem-combo {
+    margin: 30px auto;
+    width: 50%;
+}
+
+.botoes {
+    text-decoration: none;
+    color: var(--branco-principal);
+    width: 70%;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.bAzul {
+    background: var(--botao-azul);
+    border-color: var(--botao-azul-efeito);
+}
+
+.bNormal {
+    background: transparent;
+    border-color: var(--branco-principal);
+}
+
+.paragrafo {
+    font-size: 10px;
+}
+
+.conteudo-main{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    grid-template-rows: 30% 30% 30%;
+}
+.sessao {
+    margin: 15vh auto;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+}
+
+.imagem-plataforma {
+    max-width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.textos,.caixaTextos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.conteudo-main p{
+    font-size: 1.2rem;
+}
+.conteudo-main h1{
+    font-size: 2rem;
+}
+
+.telas {
+   margin: 50px;
+}
+
+.direita {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    margin: 50px;
+}
+.botao {
+    padding: 10px 0;
+    border-radius: 5px;
+    text-decoration: none;
+    color: var(--branco-principal);
+    text-align: center;
+}
+.imagem-telas {
+    max-width: 400px;
+}
+
+.imagem-notebook {
+    max-width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.Dispositivos {
+    background: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-dispositivos{
+    font-size: 3rem;
+}
+
+.caixaDispositivos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagem-dispositivos {
+    max-height: 150px ;
+}
+
+.rodape {
+    background: black;
+    color: #C0C0C0;
+    text-align: center;
+    margin: 10vh 10vw;
+}
+
+.rodape nav{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 5vh;
+}
+.rodape p{
+    font-size: 0.8rem;
+    margin: 1rem auto;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.imagem-logo{
+    margin-bottom: 5vh;
+}
+
+/*
+-- CENTRALIZAR IMAGEM TELAS
+
+-- CENTRALIZAR TEXTOS SESSAO NOTEBOOK
+*/
